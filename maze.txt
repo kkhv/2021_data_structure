@@ -1,0 +1,64 @@
+001
+101
+10x
+
+move right
+2c1
+101
+10x
+
+move right
+2c1
+101
+10x
+
+move down
+221
+1c1
+10x
+
+move down
+221
+121
+1cx
+
+move left
+221
+121
+1cx
+
+move right
+221
+121
+12c
+
+move right
+221
+121
+122c
+
+move right
+221
+121
+1222c
+
+move right
+221
+121
+12222c
+
+move right
+221
+121
+122222c
+
+move right
+221
+121
+1222222c
+
+move right
+221
+121
+12222222c
+

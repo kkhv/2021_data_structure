@@ -89,7 +89,7 @@ void print_maze(){
 }
 
 bool movable(Position pos, int dir){
-	if(maze[pos.x][pos.y] == PATH || maze[pos.x][pos.y] == EXIT){
+	if(maze[pos.x][pos.y] != WALL){
 		return true;
 	}
 	else return false;

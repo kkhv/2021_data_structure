@@ -3,7 +3,7 @@
 
 int fib(int n);
 int fib_memo(int n);
-int memo[999] = {0,1,0,};
+int memo[999999] = {0,1,0,};
 
 int main(){
     int k;
@@ -24,8 +24,8 @@ int main(){
         clock_t start2 = clock();
         fib_memo(i);
         clock_t end2 = clock();
-        fprintf(fp, "%d,", end2-start2);
-        printf("%d\n", end2-start2);
+        fprintf(fp, "%0.10f,", end2-start2);
+        printf("0.10%f\n", end2-start2);
     }
     fclose(fp);
 }
